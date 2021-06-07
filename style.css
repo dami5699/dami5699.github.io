@@ -163,8 +163,8 @@ button {
 }
 
 .home__avatar {
-  width: 300px;
-  height: 300px;
+  width: 260px;
+  height: 260px;
   border-radius: 50%;
   border: 1px solid var(--color-white);
 }
