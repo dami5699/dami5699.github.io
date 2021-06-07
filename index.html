@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dami's Profile</title>
+    <meta name="description" content="">
+    <meta name="author" content="Dami">
+    <link rel="icon" type="imgae/png" href="imgs/favicon.png">
+    <script src="https://kit.fontawesome.com/4895e5a54d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+            <img src="./imgs/favicon.png" alt="" style="width: 35px; height: 35px;">
+            <a href="index.html">Dami</a>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__menu__item" data-link="#home">Home</li>
+            <li class="navbar__menu__item" data-link="#about">About</li>
+            <li class="navbar__menu__item" data-link="#skills">Skills</li>
+            <li class="navbar__menu__item" data-link="#work">Work</li>
+            <li class="navbar__menu__item" data-link="#myProject">My Project</li>
+            <!-- <li class="navbar__menu__item" data-link="#testimonials">Testimonials</li> -->
+            <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+        <div class="home__container">
+            <img src="./imgs/profile.jpg" alt="Dami's profile photo" class="home__avatar">
+            <h1 class="home__title">Hello, <br /> I'm Joyful Coder!</h1>
+            <h2 class="home__description">A Software Engineer currently residining in Tokyo, Japan.</h2>
+            <button class="home__contact" data-link="#contact">CONTACT ME</button>
+    
+        </div>
+        <div class="animation-area">
+            <ul class="box-area">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+        <h1>About me</h1>
+        <p>
+            새로운것을 즐기며,도전하는개발자입니다.</br>
+            주로 증권, 금융쪽의 프로젝트 경력이 있습니다. </br>
+            성장하는 것을 즐기고 새로운 기술에 도전하는 것을 즐기는 즐거운 코더 <span>Joyful Coder</span> 입니다. </br>
+            </br>   
+            新しいことを楽しんで、挑んでいくSEです。</br>
+            主に証券・金融業界での現場経歴がございます。</br>
+            ですが、その以外の分野だとしても今までの経歴と自信をもってプロジェクトを進んでいける力量を持っております。</br>
+            成長していくことを楽しんで、新しい技術に挑むことを楽しんでる楽しい開発者 <span>Joyful Coder</span> です。
+
+        </p>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="major__title">
+                    Front-end
+                </div>
+                <div class="major__dscription">
+                    HTML, CSS, JavaScript
+                </div>
+            </div>
+
+            <div class="major">
+                <div class="major__icon">
+                    <!-- <img src="./imgs/VB.NET_Logo.png" alt="vb.net's logo"> -->
+                    <i class="fab fa-microsoft"></i>
+                </div>
+                <h2 class="major__title">
+                    VB.Net
+                </h2>
+                <div class="major__dscription">
+                </div>
+            </div>
+
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <div class="major__title">
+                    Java
+                </div>
+                <div class="major__dscription">
+                </div>
+            </div>
+        </div>
+
+        <div class="about__history">
+            <div class="history">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <div class="history__description">
+                    <p class="histroy__name">Global-in Academy Completion</p>
+                    <p class="history__period">2018 Mar ~ 2018 Sep</p>    
+                </div>
+            </div>
+
+            <div class="history">
+                <i class="fas fa-building"></i>
+                <div class="history__description">
+                    <p class="histroy__name">(株)KS情報システム</p>
+                    <p class="history__period">2018 Oct ~ 2019 Mar</p>    
+                </div>
+            </div>
+
+            <div class="history">
+                <i class="fas fa-building"></i>
+                <div class="history__description">
+                    <p class="histroy__name">(株)ブリッジ アイティコーポレーション</p>
+                    <p class="history__period">2019 Apr ~ Until now</p>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
+            <!-- <h2>Skills & Attribute</h2>
+            <p>Experience with...</p> -->
+    
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title">Skills</h3> 
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>HTML</span>
+                            <!-- <span>80%</span> -->
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>CSS</span>
+                            <!-- <span>70%</span> -->
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>JavaScript</span>
+                            <!-- <span>65%</span> -->
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>VB.Net</span>
+                            <!-- <span>70%</span> -->
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Java</span>
+                            <!-- <span>65%</span> -->
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools__list">
+                            <li><span>Visual Studio Code</span></li>
+                            <li><span>Eclipse</span></li>
+                            <li><span>楽々Frame Work</span></li>
+                            <li><span>A5M2</span></li>
+                            <li><span>Git</span></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>Git</span></li>
+                        </ul>
+                    </div> -->
+                    <div class="language">
+                        <h3 class="skillset__title">Laguage</h3>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>Korean</span>
+                                <!-- <span>80%</span> -->
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 100%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>Japanese</span>
+                                <!-- <span>80%</span> -->
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill__description">
+                                <span>English</span>
+                                <!-- <span>80%</span> -->
+                            </div>
+                            <div class="skill__bar">
+                                <div class="skill__value" style="width: 60%;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>Work</h1>
+
+            <div class="work__carrers">
+
+                <!-- 여섯번째 커리어 -->
+                <div class="carrer">
+                    <div class="carrer__left">
+                            <span class="carrer__date">2021 Jan ~ 2021 Mar</span>
+                    </div>
+                    <div class="carrer__right">
+                        <div class="carrer__contents">
+                            <div class="carrer__field">
+                                <span>企業情報登録申請フロー</span>
+                            </div>
+                            <div class="carrer__system__related">
+                                <div class="carrer__system__title">
+                                    Project content
+                                </div>
+                                
+                                <ul class="carrer__system__description">
+                                    <li>・ 企業情報登録時に使われる申請フォーム作業</li>
+                                    <li>・ 企業情報登録申請から管理者の承認、最終発行までの流れ作業</li>
+                                    <li>・ 申請結果の関しての帳票作業</li>
+                                    <li>・ テスト（ケース作成、実行等）</li>
+                                </ul>
+    
+                            </div>
+                            <div class="carrer__skill">
+                                <div class="carrer__skill__title">
+                                    Skill
+                                </div>
+                                <div class="carrer__skill__description">
+                                    Java, 楽々FrameWork
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 다섯번째 커리어 -->
+                <div class="carrer">
+                    <div class="carrer__left">
+                            <span class="carrer__date">2020 Jul ~ 2020 Dec</span>
+                    </div>
+                    <div class="carrer__right">
+                        <div class="carrer__contents">
+                            <div class="carrer__field">
+                                <span>企業情報登録申請フロー</span>
+                            </div>
+                            <div class="carrer__system__related">
+                                <div class="carrer__system__title">
+                                    Project content
+                                </div>
+                                
+                                <ul class="carrer__system__description">
+                                    <li>・ 企業情報登録時に使われる申請フォーム作業</li>
+                                    <li>・ 企業情報登録申請から管理者の承認、最終発行までの流れ作業</li>
+                                    <li>・ 申請結果の関しての帳票作業</li>
+                                    <li>・ テスト（ケース作成、実行等）</li>
+                                </ul>
+    
+                            </div>
+                            <div class="carrer__skill">
+                                <div class="carrer__skill__title">
+                                    Skill
+                                </div>
+                                <div class="carrer__skill__description">
+                                    Java, JavaScript, HTML&CSS, 楽々FrameWork
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 네번째 커리어 -->
+                <div class="carrer">
+                    <div class="carrer__left">
+                            <span class="carrer__date">2020 Apr ~ 2020 Jun</span>
+                    </div>
+                    <div class="carrer__right">
+                        <div class="carrer__contents">
+                            <div class="carrer__field">
+                                <span>出張経費申請フロー</span>
+                            </div>
+                            <div class="carrer__system__related">
+                                <div class="carrer__system__title">
+                                    Project content
+                                </div>
+                                
+                                <ul class="carrer__system__description">
+                                    <li>・ 出張経費申請時に使われる申請フォーム作業</li>
+                                    <li>・ 出長中発生される諸々の費用（交通費・宿泊料金など）が正常に算定されるのか作業</li>
+                                    <li>・ テスト（ケース作成、実行等）</li>
+                                </ul>
+    
+                            </div>
+                            <div class="carrer__skill">
+                                <div class="carrer__skill__title">
+                                    Skill
+                                </div>
+                                <div class="carrer__skill__description">
+                                    Java, 楽々FrameWork
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 세번째 커리어 -->
+                <div class="carrer">
+                    <div class="carrer__left">
+                            <span class="carrer__date">2020 Jan ~ 2020 Apr</span>
+                    </div>
+                    <div class="carrer__right">
+                        <div class="carrer__contents">
+                            <div class="carrer__field">
+                                <span>統計プログラムの変更</span>
+                            </div>
+                            <div class="carrer__system__related">
+                                <div class="carrer__system__title">
+                                    Project content
+                                </div>
+                                
+                                <ul class="carrer__system__description">
+                                    <li>・ WindowsフォームアプリケーションをWebから機能されるよう変更作業</li>
+                                    <li>・ 統計のための銘柄のリスト管理、入出力による情報反映、数量反映、帳票出力などのコードを確認、不具合修正</li>
+                                    <li>・ テスト（ケース作成、実行等）</li>
+                                </ul>
+    
+                            </div>
+                            <div class="carrer__skill">
+                                <div class="carrer__skill__title">
+                                    Skill
+                                </div>
+                                <div class="carrer__skill__description">
+                                    vb.Net, Javascript
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 두번째 커리어 -->
+                <div class="carrer">
+                    <div class="carrer__left">
+                            <span class="carrer__date">2019 May ~ 2019 Dec</span>
+                    </div>
+                    <div class="carrer__right">
+                        <div class="carrer__contents">
+                            <div class="carrer__field">
+                                <span>金融機関の取引システム言語変換</span>
+                            </div>
+                            <div class="carrer__system__related">
+                                <div class="carrer__system__title">
+                                    Project content
+                                </div>
+                                
+                                <ul class="carrer__system__description">
+                                    <li>・ 古いソースから最新ソースに変換作業。ソースコード修正および動作確認(VBAからvb.Netに変換作業)</li>
+                                    <li> ・ 登録されている企業の金融状態、管理等ができる機能担当</li>
+                                    <li>・ 企業の外貨金融の管理ができる機能補助</li>
+                                    <li>・ テスト（ケース作成、実行等）</li>
+                                </ul>
+    
+                            </div>
+                            <div class="carrer__skill">
+                                <div class="carrer__skill__title">
+                                    Skill
+                                </div>
+                                <div class="carrer__skill__description">
+                                    vb.Net
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 첫번째 커리어 -->
+                <div class="carrer">
+                    <div class="carrer__left">
+                            <span class="carrer__date">2018 Oct ~ 2019 Mar</span>
+                    </div>
+                    <div class="carrer__right">
+                        <div class="carrer__contents">
+                            <div class="carrer__field">
+                                <span>証券取引システム開発</span>
+                            </div>
+                            <div class="carrer__system__related">
+                                <div class="carrer__system__title">
+                                    Project content
+                                </div>
+                                
+                                <ul class="carrer__system__description">
+                                    <li>・ 株式の情報等を登録、更新、照会、取引ができる機能を開発</li>
+                                    <li>・ 株式のファンドの財産状態、株価等を更新および照会できる機能担当</li>
+                                    <li>・ テスト（ケース作成、実行等）</li>
+                                </ul>
+    
+                            </div>
+                            <div class="carrer__skill">
+                                <div class="carrer__skill__title">
+                                    Skill
+                                </div>
+                                <div class="carrer__skill__description">
+                                    vb.Net
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My project -->
+    <section id="myProject" class="section">
+        <div class="section__container">
+            <h1>My Project</h1>
+            <h3>personal projects</h3>
+    
+            <div class="myProject__categories">
+                <button class="category__btn selected" data-type="*">
+                    All<span class="category__count">4</span>
+                </button>
+                <button class="category__btn" data-type="Front-end">Front-end<span class="category__count">3</span></button>
+                <button class="category__btn" data-type="VB">VB.Net<span class="category__count">0</span></button>
+                <button class="category__btn" data-type="Java">Java<span class="category__count">1</span></button>
+            </div>
+    
+            <div class="myProject__projects">
+                <a class="project" data-type="Front-end">
+                    <!-- img -->
+                    <img src="./imgs/work/project_carrot.png" alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Carrot Game</h3>
+                    <span>HTML, CSS, Javascript</span>
+                </div>
+                </a>
+                <a class="project" data-type="Front-end">
+                    <!-- img -->
+                    <img src="./imgs/work/project_movie.png" alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Movie Application</h3>
+                    <span>Clone Coding Movie Application with <br>React, HTML, CSS, Javascript</span>
+                </div>
+                </a>
+                <a class="project" data-type="Front-end">
+                    <!-- img -->
+                    <img src="./imgs/work/project_portfolio.png" alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Portfolio</h3>
+                    <span>HTML, CSS, Javascript</span>
+                </div>
+                </a>
+                <a class="project" data-type="Java">
+                    <img src="./imgs/work/project_lhythm.png" alt="" class="project__img">
+                <div class="project__description">
+                    <h3>Lhythm Game</h3>
+                    <span>Java</span>
+                </div>
+                </a>
+    
+            </div>
+        </div> 
+    </section>
+
+    <!-- Testimonials -->
+    <!-- <section id="testimonials" class="section">
+        <h1>Testimonials</h1>
+        <h3>See what they say about me</h3>
+
+        <div class="testimonials">
+            <div class="testimonial">
+                <div class="testimonial__speech-bubble">
+                    <p>exaplain exaplain exaplain exaplain exaplain exaplain exaplain exaplain</p>
+                    <p class="name"><a href="#">dami</a></p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="testimonial__speech-bubble">
+                    <p>exaplain exaplain exaplain exaplain exaplain exaplain exaplain exaplain</p>
+                    <p class="name"><a href="#">dami</a></p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Let's talk</h1>
+        <h2 class="contact__email">dami1305@naver.com</h2>
+        <div class="contact_links">
+            <a href="https://github.com/dami5699" target="blank">
+                <i class="fab fa-github"></i>
+            </a>    
+        </div>
+        <p class="contact__rights">2021 Dami - All rigths reserved</p>    
+        <div class="animation-area">
+            <ul class="box-area">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Arrow up -->
+    <button class="arrow-up">
+        <i class="fas fa-home"></i>
+    </button>
+
+</body>
+</html>
