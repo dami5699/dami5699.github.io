@@ -820,6 +820,10 @@ button {
     flex-grow: 1;
   }
 
+  .project__description h3:after {
+    width: 225px;
+  }
+
   .arrow-up {
     line-height: 30px;
     right: 16px;
